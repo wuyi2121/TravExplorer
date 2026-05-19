@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="TravExplorer logo">
+  <defs>
+    <linearGradient id="g" x1="12" y1="116" x2="116" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0064a5"/>
+      <stop offset="0.52" stop-color="#23b5d3"/>
+      <stop offset="1" stop-color="#58c27d"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#g)"/>
+  <path d="M36 38h56v16H72v48H56V54H36z" fill="#fff"/>
+  <path d="M33 89c19-24 43-24 62 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.82"/>
+</svg>
