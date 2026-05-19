@@ -28,8 +28,7 @@
 </p>
 
 <p align="center">
-  TravExplorer is the first system that efficiently handles<br/>
-  both single-floor and cross-floor object navigation through 3D traversability mapping.
+  TravExplorer is the first system to efficiently handle both <strong>single-floor</strong> and <strong>cross-floor</strong> object navigation via <strong>3D traversability mapping</strong>.
 </p>
 
 ## System Overview
@@ -41,7 +40,7 @@
 ## Robot Platform
 
 <p align="center">
-  <img src="assets/img/platform.jpg" width="80%"/>
+  <img src="assets/img/platform.jpg" width="60%"/>
 </p>
 
 ## Real-World Experiments
