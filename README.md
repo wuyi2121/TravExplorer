@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <img src="assets/img/logo.svg" alt="TravExplorer Logo" width="70"/> TravExplorer
+    <img src="assets/img/logo.svg" alt="TravExplorer Logo" width="48" style="vertical-align: middle;"/> TravExplorer
   </h1>
   <h2>Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning</h2>
   <p align="center">
@@ -25,7 +25,8 @@
 </p>
 
 <p align="center">
-  TravExplorer is the first system that efficiently handles both single-floor and cross-floor object navigation through 3D traversability mapping.
+  TravExplorer is the first system that efficiently handles<br/>
+  both single-floor and cross-floor object navigation through 3D traversability mapping.
 </p>
 
 ## System Overview
