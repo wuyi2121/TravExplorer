@@ -54,3 +54,7 @@ More videos and interactive demonstrations are available on the <a href="https:/
 ## Citation
 
 Citation information will be added once the paper is available.
+
+## License
+
+This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
