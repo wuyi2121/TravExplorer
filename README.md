@@ -35,7 +35,7 @@
 ## System Overview
 
 <p align="center">
-  <img src="assets/img/system_overview.jpg" width="100%"/>
+  <img src="assets/img/framework.jpg" width="100%"/>
 </p>
 
 ## Robot Platform
