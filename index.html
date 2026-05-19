@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="TravExplorer project website.">
+  <meta name="keywords" content="TravExplorer, Cross-Floor Exploration, Quadruped Robot, Embodied AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning">
+  <meta property="og:description" content="TravExplorer project website.">
+  <meta name="twitter:title" content="TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning">
+  <meta name="twitter:description" content="TravExplorer project website.">
+  <title>TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/js/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css?v=20260519-1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230064a5'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='26' fill='white' font-family='Arial'%3ESN%3C/text%3E%3C/svg%3E">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js?v=20260519-1"></script>
+</head>
+
+<body>
+  <section class="hero hero-cover">
+    <video class="hero-cover-video" autoplay muted loop playsinline preload="auto" aria-label="Cover background video">
+      <source src="./video/abstract/abstract.mp4" type="video/mp4">
+    </video>
+    <div class="hero-cover-overlay" aria-hidden="true"></div>
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-desktop is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title hero-main-title" style="line-height: 1.3;">
+              <span class="hero-title-line"><span class="hero-gradient-word">TravExplorer</span>: Cross-Floor Embodied Exploration</span>
+              <span class="hero-title-line">via Traversability-Aware 3D Planning</span>
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://wuyi2121.github.io/TravExplorer_Web/">Han Zheng</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://wuyi2121.github.io/TravExplorer_Web/">Zhe Chen</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://wuyi2121.github.io/TravExplorer_Web/">Yudong Huang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://wuyi2121.github.io/TravExplorer_Web/">Haoran Liu</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://wuyi2121.github.io/TravExplorer_Web/">Jinghao Wang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://wuyi2121.github.io/TravExplorer_Web/">Ming Yang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://wuyi2121.github.io/TravExplorer_Web/">Tong Qing</a><sup>1</sup>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University, </span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://wuyi2121.github.io/TravExplorer_Web/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://wuyi2121.github.io/TravExplorer_Web/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://wuyi2121.github.io/TravExplorer_Web/"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://wuyi2121.github.io/TravExplorer_Web/" class="external-link button is-normal is-rounded is-dark btn-code">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-small contrib-section">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-desktop is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="content">
+              <h2 class="title is-3 has-text-centered section-title-bmk">
+                <span class="section-title-icon icon-contributions"><span class="section-title-emoji" aria-hidden="true">💡</span></span>
+                <span>Key Contributions</span>
+              </h2>
+              <div class="contrib-mini-grid">
+                <article class="contrib-mini-card contrib-tone-map">
+                  <div class="contrib-mini-copy">
+                    <h3 class="contrib-mini-heading"><span class="contrib-mini-icon" aria-hidden="true">🗺️</span><span>3D Traversable Frontier</span></h3>
+                    <p class="contrib-mini-text">We pioneer a traversable frontier-based exploration paradigm for ground robots, which unifies 2D ray casting for efficiency and 3D semantic traversability for multi-floor awareness, while leveraging active perception to mitigate FOV-limited occlusions.</p>
+                  </div>
+                </article>
+                <article class="contrib-mini-card contrib-tone-target">
+                  <div class="contrib-mini-copy">
+                    <h3 class="contrib-mini-heading"><span class="contrib-mini-icon" aria-hidden="true">🎯</span><span>Spatial Semantic Guidance</span></h3>
+                    <p class="contrib-mini-text">We design spatial semantic guidance that couples a probabilistic instance map from open-vocabulary semantic segmentation with a spatial value map from fast image-to-text matching, enabling zero-shot search to focus on semantically promising regions for efficient exploration.</p>
+                  </div>
+                </article>
+                <article class="contrib-mini-card contrib-tone-plan">
+                  <div class="contrib-mini-copy">
+                    <h3 class="contrib-mini-heading"><span class="contrib-mini-icon" aria-hidden="true">🪜</span><span>Hierarchical Cross-Floor Planning</span></h3>
+                    <p class="contrib-mini-text">We develop a hierarchical cross-floor exploration planner that integrates TSP-based global tours, foothold-guided 3D path search, an execute-review mechanism, and vertically constrained local planning, enhancing both search efficiency and traversal robustness.</p>
+                  </div>
+                </article>
+                <article class="contrib-mini-card contrib-tone-validate">
+                  <div class="contrib-mini-copy">
+                    <h3 class="contrib-mini-heading"><span class="contrib-mini-icon" aria-hidden="true">🌍</span><span>Large-Scale Validation</span></h3>
+                    <p class="contrib-mini-text">We conduct extensive evaluations, including 50 real-world experiments and 4,195 simulated episodes on HM3D and MP3D benchmarks, achieving state-of-the-art performance. To the best of our knowledge, this is the first system that efficiently handles both single-floor and cross-floor object navigation through 3D traversability mapping.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benchmark Comparison -->
+  <section class="section benchmark-section" id="benchmark">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered section-title-bmk benchmark-title">
+        <span class="section-title-icon icon-benchmark"><span class="section-title-emoji" aria-hidden="true">📊</span></span>
+        <span>Benchmark Comparison</span>
+      </h2>
+
+      <!-- Scene selector -->
+      <div class="bmk-tabs">
+        <button class="bmk-tab is-active" data-scene="DOWNSTAIR">Downstairs</button>
+        <button class="bmk-tab" data-scene="UPSTAIR">Upstairs</button>
+        <button class="bmk-tab" data-scene="MIDSTAIR">Mid-stairs</button>
+        <button class="bmk-tab" data-scene="SINGLE">Single Floor</button>
+      </div>
+
+      <div class="bmk-grid">
+        <div class="bmk-col">
+          <p class="bmk-label bmk-label-ours">TravExplorer</p>
+          <div class="bmk-video bmk-video-placeholder" id="bmk-ours">Video Placeholder</div>
+        </div>
+        <div class="bmk-col">
+          <p class="bmk-label bmk-label-racer">ApexNav</p>
+          <div class="bmk-video bmk-video-placeholder" id="bmk-racer">Video Placeholder</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Benchmark Comparison -->
+
+  <section class="hero is-small is-light highlight-section">
+    <div class="hero-body">
+      <div class="container">
+        <!-- Paper video carousel. -->
+        <div class="columns is-desktop is-centered has-text-centered">
+          <div class="column">
+            <h2 class="title is-3 has-text-centered section-title-bmk">
+              <span class="section-title-icon icon-highlight"><span class="section-title-emoji" aria-hidden="true">🚀</span></span>
+              <span>Highlight: Long-Range Exploration</span>
+            </h2>
+            
+            <!-- Simple video carousel container -->
+            <div class="simple-video-carousel">
+              <!-- Video slides -->
+              <div class="video-slides">
+                <div class="video-slide active">
+                  <div class="publication-video">
+                    <video id="highlightLocalVideo" class="highlight-local-video" muted playsinline preload="auto" controlslist="nodownload noremoteplayback" disablepictureinpicture disableremoteplayback>
+                      <source src="./video/abstract/highlight.mp4" type="video/mp4">
+                    </video>
+                    <button id="highlightPlayButton" class="highlight-play-button" type="button" aria-label="Play highlight video">
+                      <span class="highlight-play-icon" aria-hidden="true"></span>
+                    </button>
+                    <div id="highlightProgressOverlay" class="highlight-progress-overlay">
+                      <div id="highlightTimeDisplay" class="highlight-time-display">0:00 / 0:00</div>
+                      <button id="highlightProgressTrack" class="highlight-progress-track" type="button" aria-label="Seek highlight video">
+                        <span id="highlightProgressBar" class="highlight-progress-bar"></span>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- Storyboard/Thumbnail Section -->
+                  <div class="video-storyboard">
+                    <div class="storyboard-title">Key Moments <span class="storyboard-subtitle">- Click image to jump • Click 🔍 to zoom</span></div>
+                    <div class="storyboard-frames">
+                      <div class="storyboard-frame">
+                        <img src="static/images/frame1.jpg" alt="Frame 1">
+                        <span class="frame-time">0:56</span>
+                        <div class="frame-description">Robot does not find a bed in the basement, prepares to go upstairs.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/frame2.jpg" alt="Frame 2">
+                        <span class="frame-time">1:06</span>
+                        <div class="frame-description">Robot transits from the basement to the first-floor hall.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/frame3.jpg" alt="Frame 3">
+                        <span class="frame-time">2:52</span>
+                        <div class="frame-description">Robot does not find a bed on the first floor, prepares to go upstairs.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/frame4.jpg" alt="Frame 4">
+                        <span class="frame-time">3:07</span>
+                        <div class="frame-description">Robot goes up to the second floor and successfully finds the bed, completes.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-slide">
+                  <div class="publication-video">
+                    <div class="video-placeholder">Video Placeholder</div>
+                  </div>
+                  <!-- Storyboard/Thumbnail Section -->
+                  <div class="video-storyboard">
+                    <div class="storyboard-title">Key Moments <span class="storyboard-subtitle">- Click image to jump • Click 🔍 to zoom</span></div>
+                    <div class="storyboard-frames">
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_4th/rgb/00:16.png" alt="Frame 1">
+                        <span class="frame-time">0:16</span>
+                        <div class="frame-description">Robot transits to the next room selected by the VLM.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_4th/rgb/00:48.png" alt="Frame 2">
+                        <span class="frame-time">0:48</span>
+                        <div class="frame-description">Robot finds blue and grey trash cans, but not in a classroom, continues.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_4th/rgb/01:08.png" alt="Frame 3">
+                        <span class="frame-time">1:08</span>
+                        <!-- <div class="frame-description">Robot choose to explore the detected classroom first.</div> -->
+                         <div class="frame-description">The robot aborts exploring the current room and transits to the classroom.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_4th/rgb/01:11.png" alt="Frame 4">
+                        <span class="frame-time">1:11</span>
+                        <div class="frame-description">Robot finds the blue trash can in a classroom, completes.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-slide">
+                  <div class="publication-video">
+                    <div class="video-placeholder">Video Placeholder</div>
+                  </div>
+                  <!-- Storyboard/Thumbnail Section -->
+                  <div class="video-storyboard">
+                    <div class="storyboard-title">Key Moments <span class="storyboard-subtitle">- Click image to jump • Click 🔍 to zoom</span></div>
+                    <div class="storyboard-frames">
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_5th/rgb/00:07.png" alt="Frame 1">
+                        <span class="frame-time">0:07</span>
+                        <div class="frame-description">Robot finds a microwave oven but not near the fridge, continues.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_5th/rgb/00:29.png" alt="Frame 2">
+                        <span class="frame-time">0:29</span>
+                        <div class="frame-description">Robot finds a microwave oven but not near the fridge, continues.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_5th/rgb/00:49.png" alt="Frame 3">
+                        <span class="frame-time">0:49</span>
+                        <div class="frame-description">Robot transits to the next room selected by the VLM.</div>
+                      </div>
+                      <div class="storyboard-frame">
+                        <img src="static/images/storyboard/gates_5th/rgb/01:03.png" alt="Frame 4">
+                        <span class="frame-time">1:03</span>
+                        <div class="frame-description">Robot finds a microwave oven near the fridge, completes.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+        <!--/ Paper video carousel. -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Single-Floor Object Navigation in Real-World -->
+  <section class="hero is-small real-single-section">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered section-title-bmk">
+          <span class="section-title-icon icon-single-floor"><span class="section-title-emoji" aria-hidden="true">🗺️</span></span>
+          <span>Single-Floor Object Navigation in Real-World</span>
+        </h2>
+        <p class="has-text-centered" style="margin-top: -1.75rem; margin-bottom: -0.5rem; color: #7a7a7a; font-size: 0.9rem; font-style: italic;">24 demos - Click any video to view in detail</p>
+        
+        <!-- Gallery -->
+        <div class="gallery-container">
+          <div class="gallery-slider" id="galleryG1OriSlider">
+            <div class="gallery-page">
+              <div class="demo-grid-3col" id="g1OriPage1"></div>
+            </div>
+            <div class="gallery-page">
+              <div class="demo-grid-3col" id="g1OriPage2"></div>
+            </div>
+            <div class="gallery-page">
+              <div class="demo-grid-3col" id="g1OriPage3"></div>
+            </div>
+            <div class="gallery-page">
+              <div class="demo-grid-3col" id="g1OriPage4"></div>
+            </div>
+          </div>
+
+          <div class="gallery-nav">
+            <button id="prevG1OriBtn" onclick="navigateG1OriGallery(-1)">
+              <i class="fas fa-chevron-left"></i> Previous
+            </button>
+            <span class="gallery-page-indicator">
+              Page <span id="currentG1OriPage">1</span> of <span id="totalG1OriPages">4</span>
+            </span>
+            <button id="nextG1OriBtn" onclick="navigateG1OriGallery(1)">
+              Next <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cross-Floor Object Navigation in Real-World -->
+  <section class="hero is-light is-small real-cross-section">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered section-title-bmk">
+          <span class="section-title-icon icon-cross-floor"><span class="section-title-emoji" aria-hidden="true">🪜</span></span>
+          <span>Cross-Floor Object Navigation in Real-World</span>
+        </h2>
+        <p class="has-text-centered" style="margin-top: -1.75rem; margin-bottom: -0.5rem; color: #7a7a7a; font-size: 0.9rem; font-style: italic;">8 demos - Click any video to view in detail</p>
+        
+        <!-- Gallery -->
+        <div class="gallery-container">
+          <div class="gallery-slider" id="galleryG1SelfSlider">
+            <div class="gallery-page">
+              <div class="demo-grid-2col" id="g1SelfPage1"></div>
+            </div>
+            <div class="gallery-page">
+              <div class="demo-grid-2col" id="g1SelfPage2"></div>
+            </div>
+            <div class="gallery-page">
+              <div class="demo-grid-2col" id="g1SelfPage3"></div>
+            </div>
+            <div class="gallery-page">
+              <div class="demo-grid-2col" id="g1SelfPage4"></div>
+            </div>
+          </div>
+
+          <div class="gallery-nav">
+            <button id="prevG1SelfBtn" onclick="navigateG1SelfGallery(-1)">
+              <i class="fas fa-chevron-left"></i> Previous
+            </button>
+            <span class="gallery-page-indicator">
+              Page <span id="currentG1SelfPage">1</span> of <span id="totalG1SelfPages">4</span>
+            </span>
+            <button id="nextG1SelfBtn" onclick="navigateG1SelfGallery(1)">
+              Next <i class="fas fa-chevron-right"></i>
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Modal -->
+  <div id="videoModal" class="video-modal">
+    <span class="modal-close" onclick="closeVideoModal()">&times;</span>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modalTitle"></h2>
+      </div>
+      <div class="modal-video-pair" id="modalVideoPair">
+        <!-- Videos with individual controls will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Lightbox Modal for Storyboard -->
+  <div id="imageLightbox" class="image-lightbox">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <div class="lightbox-content">
+      <img id="lightboxImage" class="lightbox-image" src="" alt="Enlarged view">
+    </div>
+  </div>
+
+
+
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{park2021nerfies,
+        author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+        title     = {Nerfies: Deformable Neural Radiance Fields},
+        journal   = {ICCV},
+        year      = {2021},
+      }</code></pre>
+    </div>
+  </section> -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-desktop is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="https://wuyi2121.github.io/TravExplorer_Web/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              This means you are free to borrow the <a href="https://wuyi2121.github.io/TravExplorer_Web/">source
+                code</a> of this website,
+              we just ask that you link back to this page in the footer.
+              Please remember to remove the analytics code included in the header of the website which
+              you do not want on your website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
