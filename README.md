@@ -1,6 +1,9 @@
 <div align="center">
   <h1>
-    <img src="assets/img/logo.svg" alt="TravExplorer Logo" width="48" style="vertical-align: middle;"/> TravExplorer
+    <span style="display: inline-flex; align-items: center; gap: 0.25em;">
+      <img src="assets/img/logo.jpg" alt="TravExplorer Logo" width="48" align="absmiddle" style="vertical-align: middle;"/>
+      <span>TravExplorer</span>
+    </span>
   </h1>
   <h2>Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning</h2>
   <p align="center">
