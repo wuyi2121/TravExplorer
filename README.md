@@ -12,11 +12,11 @@
     <a href="https://github.com/wuyi2121/TravExplorer" target="_blank">Yudong Huang</a><sup>1</sup>,
     <a href="https://github.com/wuyi2121/TravExplorer" target="_blank">Haoran Liu</a><sup>1</sup>,
     <a href="https://github.com/wuyi2121/TravExplorer" target="_blank">Jinghao Wang</a><sup>1</sup>,
-    <a href="https://github.com/wuyi2121/TravExplorer" target="_blank">Ming Yang</a><sup>1</sup>,
-    <a href="https://github.com/wuyi2121/TravExplorer" target="_blank">Tong Qing</a><sup>1</sup><br/><sub>&nbsp;</sub><br/>
+    <a href="https://sais.sjtu.edu.cn/faculty/yangming1.html" target="_blank">Ming Yang</a><sup>1</sup>,
+    <a href="https://qintong.xyz/" target="_blank">Tong Qin</a><sup>1</sup><br/><sub>&nbsp;</sub><br/>
     <sup>1</sup> Shanghai Jiao Tong University
   </p>
-  <a href="https://wuyi2121.github.io/TravExplorer/" target="_blank"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white"/></a>
+  <a href="https://arxiv.org/abs/2605.19958" target="_blank"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white"/></a>
   <a href="https://wuyi2121.github.io/TravExplorer/" target="_blank"><img alt="Video" src="https://img.shields.io/badge/Video-Bilibili-FB7299?logo=bilibili&logoColor=white"/></a>
   <a href="https://wuyi2121.github.io/TravExplorer/" target="_blank"><img alt="Project Page" src="https://img.shields.io/badge/Project_Page-Website-4A90E2?logo=googlechrome&logoColor=white"/></a>
   <br/>
