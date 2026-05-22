@@ -882,11 +882,12 @@ svg.svg-inline--fa {
 .benchmark-section .bmk-summary-label {
   display: flex;
   justify-content: center;
-  margin: 2rem auto 0.8rem;
+  margin: 2rem auto 1.35rem;
 }
 
 .benchmark-section .bmk-summary-chip {
   cursor: default;
+  font-weight: 800;
 }
 
 .benchmark-section .bmk-summary-figure {
