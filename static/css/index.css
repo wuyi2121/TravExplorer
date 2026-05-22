@@ -524,6 +524,17 @@ svg.svg-inline--fa {
   justify-content: center;
 }
 
+.stair-icon {
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .contrib-mini-copy {
   display: flex;
   flex-direction: column;
@@ -868,10 +879,20 @@ svg.svg-inline--fa {
   transform-origin: center;
 }
 
+.benchmark-section .bmk-summary-label {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto 0.8rem;
+}
+
+.benchmark-section .bmk-summary-chip {
+  cursor: default;
+}
+
 .benchmark-section .bmk-summary-figure {
   width: 50%;
   max-width: 540px;
-  margin: 2rem auto 0;
+  margin: 0 auto;
 }
 
 .benchmark-section .bmk-summary-image {
