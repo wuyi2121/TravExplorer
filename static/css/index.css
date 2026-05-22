@@ -868,6 +868,21 @@ svg.svg-inline--fa {
   transform-origin: center;
 }
 
+.benchmark-section .bmk-summary-figure {
+  max-width: 1080px;
+  margin: 2rem auto 0;
+}
+
+.benchmark-section .bmk-summary-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid #e7edf5;
+  box-shadow: 0 18px 34px -28px rgba(15, 23, 42, 0.22);
+  background: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
   .benchmark-section {
     padding-top: 2.25rem;
