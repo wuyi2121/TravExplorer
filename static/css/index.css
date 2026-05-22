@@ -524,15 +524,16 @@ svg.svg-inline--fa {
   justify-content: center;
 }
 
-.stair-icon {
+.ladder-emoji {
   display: block;
-  width: 1.2em;
-  height: 1.2em;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2.2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  width: 1.18rem;
+  height: 1.18rem;
+  object-fit: contain;
+}
+
+.section-title-icon .ladder-emoji {
+  width: 1.36rem;
+  height: 1.36rem;
 }
 
 .contrib-mini-copy {
@@ -887,7 +888,9 @@ svg.svg-inline--fa {
 
 .benchmark-section .bmk-summary-chip {
   cursor: default;
-  font-weight: 800;
+  font-size: 0.95rem;
+  font-weight: 600;
+  pointer-events: none;
 }
 
 .benchmark-section .bmk-summary-figure {
