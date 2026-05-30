@@ -51,9 +51,20 @@
 
 More videos and interactive demonstrations are available on the <a href="https://wuyi2121.github.io/TravExplorer/" target="_blank">project page</a>.
 
+## Acknowledgements
+
+Our 3D local planner is based on [wuyi2121/SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner).
+
 ## Citation
 
-Citation information will be added once the paper is available.
+```bibtex
+@article{zheng2026travexplorer,
+  title={TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning},
+  author={Zheng, Han and Chen, Zhe and Huang, Yudong and Liu, Haoran and Wang, Jinghao and Yang, Ming and Qin, Tong},
+  journal={arXiv preprint arXiv:2605.19958},
+  year={2026}
+}
+```
 
 ## License
 
