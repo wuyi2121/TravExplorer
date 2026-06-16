@@ -53,7 +53,7 @@ More videos and interactive demonstrations are available on the <a href="https:/
 
 ## Acknowledgements
 
-Our 3D local planner is based on [wuyi2121/SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner).
+Our 3D local planner is based on [SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner).
 
 ## Citation
 
