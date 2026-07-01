@@ -53,7 +53,9 @@ More videos and interactive demonstrations are available on the <a href="https:/
 
 ## Acknowledgements
 
-Our 3D local planner is based on [SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner).
+Our 3D local planner is based on [SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner), a spatial collision-aware local planner for quadruped robots.
+
+Our localization module is based on [Elevator-LIO](https://github.com/xiaofan4122/Elevator-LIO), a robust multi-floor extension of [FAST-LIO2](https://github.com/hku-mars/FAST_LIO).
 
 ## Citation
 
